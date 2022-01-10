@@ -18,3 +18,15 @@ Installation instructions for OpenAi Gym can be found [here](https://github.com/
 
 ## Installing the environment
 In order to use the custom built environment, it must be installed beforehand. The following [link](https://medium.com/@apoddar573/making-your-own-custom-environment-in-gym-c3b65ff8cdaa) shows an example how to install a custom environment. Follow the instructions with the appropriate environment from here.
+
+# About the Environment
+The environment in Gym usually consists of an initialisation and four methods. 
+The initialisation specifies the parameters of the pendulum and the cart. These parameters are calculated according to the specifications of the real pendulum.
+Furthermore, the boundary conditions are specified. These are:
+- Maximum displacement of the cart in the X-axis
+- Length of a time step (dt)
+- Interval/ number of actions
+- Number of states
+- state space of the inverted pendulum
+- cost function
+These values can be adjusted as needed to replicate the pendulum.
