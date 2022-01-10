@@ -29,4 +29,5 @@ Furthermore, the boundary conditions are specified. These are:
 - Number of states
 - state space of the inverted pendulum
 - cost function
+
 These values can be adjusted as needed to replicate the pendulum.
