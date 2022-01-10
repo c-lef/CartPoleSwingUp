@@ -32,5 +32,5 @@ Furthermore, the boundary conditions are specified. These are:
 
 These values can be adjusted as needed to replicate the pendulum.
 The equation of motion in the environment is shown below. The used parameters can be seen in the code.
-![image](https://user-images.githubusercontent.com/84963025/148773083-ea268acd-38d8-453f-93ae-0c609ade8f9d.png)
+![image](https://user-images.githubusercontent.com/84963025/148773083-ea268acd-38d8-453f-93ae-0c609ade8f9d.png | width=100)
 
