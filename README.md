@@ -27,7 +27,10 @@ Furthermore, the boundary conditions are specified. These are:
 - Length of a time step (dt)
 - Interval/ number of actions
 - Number of states
-- state space of the inverted pendulum
+- equation of motion of the inverted pendulum
 - cost function
 
 These values can be adjusted as needed to replicate the pendulum.
+The equation of motion in the environment is shown below. The used parameters can be seen in the code.
+![image](https://user-images.githubusercontent.com/84963025/148773083-ea268acd-38d8-453f-93ae-0c609ade8f9d.png)
+
