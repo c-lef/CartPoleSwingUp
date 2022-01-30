@@ -32,7 +32,7 @@ Furthermore, the boundary conditions are specified. These are:
 
 These values can be adjusted as needed to replicate the pendulum.
 The equation of motion in the environment is shown below. The used parameters can be seen in the code.
-![image](https://user-images.githubusercontent.com/84963025/148773083-ea268acd-38d8-453f-93ae-0c609ade8f9d.png)
+<img src="https://user-images.githubusercontent.com/84963025/148773083-ea268acd-38d8-453f-93ae-0c609ade8f9d.png" width="400">
 
 The cost function of the environment was mapped after several trials as seen below in the three equations. The first part of the equation is composed of the reward for the shift in the x position. The further in the middle the cart is, the greater the reward.
 A much larger factor on the reward is the second part, which involves weighting on the angular position. The smaller the angle, the greater the reward.
