@@ -44,6 +44,7 @@ Finally, there is an abort criterion if the pendulum moves over the lateral limi
 
 The costfunction can be modified further to achieve an even better result.
 
+# About the Training
 
 
 
