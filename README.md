@@ -44,14 +44,19 @@ Finally, there is an abort criterion if the pendulum moves over the lateral limi
 
 The costfunction can be modified further to achieve an even better result.
 
-# About the Training
-In the code for the DQL algorithm, several parameters can also be adjusted. One is the neural network that estimates the Q-values. It consists of three layers that use the ReLu activation function. The activation function has proven itself for reinforcement learning algorithms. The neural network can certainly be further adapted to work even more accurately. The learning rate can also be changed.
+# About the DQL-Algorithm
+In the code for the DQL-Algorithm, several parameters can also be adjusted. One is the neural network that estimates the Q-values. It consists of three layers that use the ReLu activation function. The activation function has proven itself for reinforcement learning algorithms. The neural network can certainly be further adapted to work even more accurately. The learning rate can also be changed.
 
 The Deep Q-learning algorithm is applied according to Sutton et al. The following pseudo code shows the procedure.
 
 <img src="https://user-images.githubusercontent.com/84963025/151711678-eaca6e87-0cb8-488a-97d8-f64fd9af8aea.png" width="500">
 
+# About the Training
+The training starts with the previously defined number of episodes and steps. A window opens showing the simulated cart. The inverse pendulum selects the action according to the DQL-Algorithm. An episode is finished when the maximum number of steps has been completed, the cart reaches the limit or a swing-up is successful.
+When the entire training is completed, another window opens showing the cumulative reward over the different episodes.
+Furthermore, the weights of the neural networks are saved in a CVS file.
 
+Please feel free to improve my code and enjoy Reinforcement Learning.
 
 
 
