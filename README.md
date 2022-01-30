@@ -34,3 +34,13 @@ These values can be adjusted as needed to replicate the pendulum.
 The equation of motion in the environment is shown below. The used parameters can be seen in the code.
 ![image](https://user-images.githubusercontent.com/84963025/148773083-ea268acd-38d8-453f-93ae-0c609ade8f9d.png)
 
+The cost function of the environment was mapped after several trials as seen below in the three equations. The first part of the equation is composed of the reward for the shift in the x position. The further in the middle the cart is, the greater the reward.
+A much larger factor on the reward is the second part, which involves weighting on the angular position. The smaller the angle, the greater the reward.
+In addition, a larger part of the reward is added when the pendulum is in the vertical upward position.
+Finally, there is an abort criterion if the pendulum moves over the lateral limits.
+![image](https://user-images.githubusercontent.com/84963025/151699804-aefd7957-ab89-489a-96a3-da96a98a239a.png)
+The costfunction can be modified further to achieve an even better result.
+
+
+
+
