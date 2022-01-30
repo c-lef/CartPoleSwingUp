@@ -38,7 +38,7 @@ The cost function of the environment was mapped after several trials as seen bel
 A much larger factor on the reward is the second part, which involves weighting on the angular position. The smaller the angle, the greater the reward.
 In addition, a larger part of the reward is added when the pendulum is in the vertical upward position.
 Finally, there is an abort criterion if the pendulum moves over the lateral limits.
-![image](https://user-images.githubusercontent.com/84963025/151699804-aefd7957-ab89-489a-96a3-da96a98a239a.png)
+![image](https://user-images.githubusercontent.com/84963025/151699804-aefd7957-ab89-489a-96a3-da96a98a239a.png){:height="36px" width="36px"}
 The costfunction can be modified further to achieve an even better result.
 
 
