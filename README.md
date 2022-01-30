@@ -39,7 +39,7 @@ A much larger factor on the reward is the second part, which involves weighting 
 In addition, a larger part of the reward is added when the pendulum is in the vertical upward position.
 Finally, there is an abort criterion if the pendulum moves over the lateral limits.
 ![image](https://user-images.githubusercontent.com/84963025/151699804-aefd7957-ab89-489a-96a3-da96a98a239a.png)
-<img src="https://user-images.githubusercontent.com/84963025/151699804-aefd7957-ab89-489a-96a3-da96a98a239a.png" width="48">
+<img src="https://user-images.githubusercontent.com/84963025/151699804-aefd7957-ab89-489a-96a3-da96a98a239a.png" width="800">
 The costfunction can be modified further to achieve an even better result.
 
 
